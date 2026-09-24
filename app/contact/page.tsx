@@ -25,28 +25,23 @@ interface SocialLink {
 const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Email',
-    value: 'your.email@example.com',
-    href: 'mailto:your.email@example.com',
+    value: 'bhavanapillai.100@gmail.com',
+    href: 'mailto:bhavanapillai.100@gmail.com',
     icon: <Mail className="h-5 w-5 text-emerald-400" />,
   },
   {
     label: 'GitHub',
-    value: 'github.com/yourhandle',
-    href: 'https://github.com',
+    value: 'github.com/master-ginger',
+    href: 'https://github.com/master-ginger',
     icon: <FaGithub className="h-5 w-5 text-emerald-400" />,
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/yourhandle',
-    href: 'https://linkedin.com',
+    value: 'linkedin.com/in/bhavana-pillai-34b218246',
+    href: 'https://www.linkedin.com/in/bhavana-pillai-34b218246/',
     icon: <FaLinkedin className="h-5 w-5 text-emerald-400" />,
   },
-  {
-    label: 'Twitter / X',
-    value: '@yourhandle',
-    href: 'https://twitter.com',
-    icon: <FaTwitter className="h-5 w-5 text-emerald-400" />,
-  },
+  
 ];
 
 /*

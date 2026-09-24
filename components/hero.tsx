@@ -25,8 +25,8 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-            Only Goal Is Building <span className="text-[#10B981]">Scalable</span> Applications
-          </h1>
+          Crafting Exceptional <span className="text-[#10B981]">User Experiences</span>
+        </h1>
 
           <p className="text-slate-400 text-base sm:text-lg max-w-xl leading-relaxed">
             I engineer robust digital solutions focused on performance, maintainability, and exceptional user experiences. Specializing in modern TypeScript ecosystems and cloud-native architectures.

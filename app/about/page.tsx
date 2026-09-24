@@ -225,7 +225,7 @@ export default function About() {
 
                 <div className="relative h-full w-full overflow-hidden rounded-full border-2 border-emerald-500/40 bg-[#0d1117] p-1.5">
                   <Image
-                    src="/pr.jpg"
+                    src="/profile2.jpg"
                     alt="Profile"
                     fill
                     priority
