@@ -26,11 +26,12 @@ const EXPERIENCES: ExperienceItem[] = [
     period: 'May 2026 — Present',
     isCurrent: true,
     highlights: [
-      'Architected and deployed a highly scalable microservices infrastructure serving 2M+ daily active connections using Kubernetes and Go.',
-      'Reduced core API latency by 45% through aggressive caching strategies and optimizing database query execution plans in PostgreSQL.',
-      'Led a team of 5 engineers, establishing strict CI/CD pipelines and enforcing code quality standards across multiple repositories.',
-    ],
-    skills: ['Go', 'Kubernetes', 'PostgreSQL', 'Node.js'],
+    'Engineered real-time IIoT data pipelines to efficiently process live telemetry and deliver actionable operational insights.',
+    'Architected and developed robust, secure backend APIs incorporating strict access control mechanisms to support scalable platform features.',
+    'Collaborated within a 10+ member engineering team to design, build, and concurrently deploy multiple enterprise applications.',
+    'Acted as the Technical Single Point of Contact (SPOC) across multiple projects, successfully translating complex client requirements into delivered technical solutions.'
+  ],
+    skills: ['Python', 'Javascript', 'Linux', 'Vue'],
   },
   {
     id: '2',
@@ -38,10 +39,11 @@ const EXPERIENCES: ExperienceItem[] = [
     company: 'Ithena Technologies',
     period: 'May 2025 — April 2026',
     highlights: [
-      'Developed complex frontend architectures for enterprise dashboards using React, TypeScript, and customized state management solutions.',
-      'Integrated real-time data streaming via WebSockets, ensuring sub-second updates for critical financial monitoring tools.',
+      'Designed and deployed dynamic IoT dashboards in ThingsBoard to visualize real-time industrial telemetry and asset status.',
+      'Architected and implemented a comprehensive Performance Monitoring System using Ignition to track critical operational metrics.',
+      'Engineered highly responsive user interfaces, prioritizing intuitive navigation and exceptional user experiences for complex industrial applications.'
     ],
-    skills: ['React', 'TypeScript', 'Node.js'],
+    skills: ['Javascript', 'Python', 'UI/UX'],
   },
   {
     id: '3',
@@ -49,9 +51,11 @@ const EXPERIENCES: ExperienceItem[] = [
     company: 'Celebal Technologies',
     period: '2018 — 2019',
     highlights: [
-      'Maintained legacy PHP applications while slowly migrating critical modules to modern JavaScript frameworks.',
-    ],
-    skills: ['JavaScript', 'PHP', 'MySQL'],
+    'Developed responsive, feature-rich web interfaces using React, ensuring seamless cross-device user experiences.',
+    'Designed and integrated multiple new frontend features, translating UI requirements into maintainable component-based code.',
+    'Built and optimized reusable UI components to enhance overall application performance and visual consistency.'
+  ],
+    skills: ['React', 'TailwindCSS'],
   },
 ];
 

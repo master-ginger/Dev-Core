@@ -24,33 +24,34 @@ interface ProjectItem {
 const PROJECTS: ProjectItem[] = [
   {
     id: '1',
-    title: 'Distributed Cache System',
+    title: 'NexTask',
     description:
       'A high-performance distributed caching layer built to handle microservice data consistency with sub-millisecond retrieval times.',
-    tags: ['Go', 'Redis', 'gRPC'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
+    tags: ['NextJs', 'PostgreSQL', 'PrismaORM'],
+    githubUrl: "https://github.com/master-ginger/NexTask",
+    // liveUrl: 'https://example.com',
     status: 'production',
   },
   {
     id: '2',
-    title: 'FinTech Analytics Dashboard',
+    title: 'Artist Portfolio',
     description:
-      'Real-time data visualization platform processing thousands of transactions per second, featuring custom charting engines.',
+      'Built a modern,responsive portfolio interface with dynamic product and artwork management',
     tags: ['React', 'TypeScript', 'GraphQL'],
-    githubUrl: 'https://github.com',
+    githubUrl: 'https://github.com/master-ginger/Bhargavi-Portfolio',
+    liveUrl: 'https://bhargavi-portfolio-six.vercel.app/',
     status: 'live',
   },
-  {
-    id: '3',
-    title: 'Serverless Auth Gateway',
-    description:
-      'Scalable authentication API gateway utilizing edge functions for minimal latency token validation and RBAC management.',
-    tags: ['Node.js', 'AWS Lambda', 'Terraform'],
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
-    status: 'production',
-  },
+  // {
+  //   id: '3',
+  //   title: 'Serverless Auth Gateway',
+  //   description:
+  //     'Scalable authentication API gateway utilizing edge functions for minimal latency token validation and RBAC management.',
+  //   tags: ['Node.js', 'AWS Lambda', 'Terraform'],
+  //   githubUrl: 'https://github.com',
+  //   liveUrl: 'https://example.com',
+  //   status: 'production',
+  // },
 ];
 
 const statusConfig = {
