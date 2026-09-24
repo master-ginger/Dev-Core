@@ -34,20 +34,16 @@ export default function Hero() {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap justify-start items-center gap-4 pt-4">
-            <motion.button 
+            <motion.a 
+              href="/resume.pdf" 
+              
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
-              className="bg-[#10B981] hover:bg-emerald-600 text-slate-950 font-semibold font-mono px-6 py-3 rounded-md transition-colors shadow-lg shadow-emerald-500/20"
+              className="bg-[#10B981] hover:bg-emerald-600 text-slate-950 font-semibold font-mono px-6 py-3 rounded-md transition-colors shadow-lg shadow-emerald-500/20 block text-center"
             >
-              View More
-            </motion.button>
-            <motion.button 
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
-              className="border border-slate-700 hover:border-slate-500 bg-[#161b22] text-slate-200 font-mono px-6 py-3 rounded-md transition-colors"
-            >
-              Connect
-            </motion.button>
+              Resume
+            </motion.a>
           </div>
         </motion.div>
 

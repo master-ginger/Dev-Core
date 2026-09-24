@@ -26,7 +26,7 @@ const PROJECTS: ProjectItem[] = [
     id: '1',
     title: 'NexTask',
     description:
-      'A high-performance distributed caching layer built to handle microservice data consistency with sub-millisecond retrieval times.',
+      'A full-stack Next.js application leveraging PostgreSQL and Prisma ORM to deliver real-time analytics on project workflows and team productivity.',
     tags: ['NextJs', 'PostgreSQL', 'PrismaORM'],
     githubUrl: "https://github.com/master-ginger/NexTask",
     // liveUrl: 'https://example.com',
